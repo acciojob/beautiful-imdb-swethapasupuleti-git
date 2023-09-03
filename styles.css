@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    text-align: center;
+    margin-top: 50px; 
+}
+
+/* Style for the movie poster */
+.moviePic {
+    height: 300px; /* Adjust the height as needed */
+    width: auto; /* Let the width adjust proportionally */
+    opacity: 0.9; /* Adjust the opacity as desired */
+}
+
+/* Style for the movie description */
+.movieDetail {
+    position: relative; /* Position the element */
+    top: -20px; /* Adjust the top position for better alignment */
+    width: 70%; /* Set the width to control text width */
+    margin: 0 auto; /* Center-align within the container */
+    text-align: justify; /* Justify the text for a neat look */
+    font-size: 18px; /* Adjust the font size as needed */
+}
